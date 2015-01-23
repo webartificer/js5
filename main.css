@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: .5em;
+}
+
+form {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 1.5em;
+}
+
+body {
+    padding: 20px;
+    widows: 90%;
+    max-width: 960px;
+    margin: auto;
+    font-family: 'Helvetica Neue';
+    line-height: 1.5em;
+}
+
+label {
+    text-transform: uppercase;
+    font-size: .8em;
+    display: block;
+}
+
+input, textarea {
+    padding: .5em;
+    display: block;
+    width: 500px;
+    margin: 0 0 1.5em;
+    background: rgba(52, 152, 219, .2);
+    border: 1px solid rgba(52, 152, 219, 1);
+    border-radius: 5px;
+    outline: none;
+}
+
+span, p {
+    padding: .5em;
+    display: block;
+    width: 500px;
+    margin: 0 0 1.5em;
+    background: #fafafa;
+    border-radius: 5px;
+    color: #888;
+    border: 1px solid #eee;
+    transition: all .5s ease;
+
+}
+
+.smallText {
+    font-size: .9em;
+    color: #aaa;
+    width: 100%;
+    background: transparent;
+    padding: 0;
+    margin-bottom: 3em;
+    border: none;
+}
